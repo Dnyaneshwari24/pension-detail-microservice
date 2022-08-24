@@ -47,7 +47,7 @@ import com.cognizant.model.PensionerDetail;
 		PensionerDetail pensionerDetail = new PensionerDetail();
 		pensionerDetail.setAadhaarNumber("986543276547");
 		pensionerDetail.setDateOfBirth("6-11-1998");
-		pensionerDetail.setName("Mounika");
+		pensionerDetail.setName("Monika");
 		pensionerDetail.setPanNumber("GTYIK7412L");
 		pensionerDetail.setSalary(70000);
 		pensionerDetail.setAllowance(12000);
