@@ -1,0 +1,10 @@
+version : 1.0
+Resources :
+  - TargetService :
+      Type : AWS::ECS::Service
+      Properties :
+        TaskDefinition : "arn:aws:ecs:ap-south-1:860061945305:task-definition/pms-pension-detail-td:1"
+        LoadBalancerInfo :
+          ContainerName : "pension-detail-microservice"
+          ContainerPort : "9000"
+        PlatformVersion : "LATEST"
